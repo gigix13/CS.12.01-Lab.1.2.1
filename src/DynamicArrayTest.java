@@ -234,6 +234,7 @@ class DynamicArrayTest {
         stringDynamicArray.add("Love");
 
         assertEquals("Miss", stringDynamicArray.remove("Miss"));
+
         assertEquals(2, stringDynamicArray.size());
         assertEquals("you", stringDynamicArray.get(0));
         assertEquals("Love", stringDynamicArray.get(1));
